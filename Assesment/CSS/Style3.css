@@ -1,0 +1,137 @@
+body{
+  font: normal 16px Arial, Helvetica, sans-serif;
+  line-height: 1.4em;
+  margin: auto;
+}
+#myHeader{
+  background-color: lightblue;
+
+color: black;
+text-align: center;
+color: rgb(119, 28, 28);
+}
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+.sell1{
+display: inline-block;
+position: relative;
+left: 750px;
+top: -1200px;
+border: solid 1px gray;
+width: 225px;
+height: 400px;
+background-color: white;
+}
+
+.sell2{
+display: inline-block;
+position: relative;
+left: 600px;
+top: -800px;
+border: solid 1px gray;
+width: 225px;
+height: 400px;
+background-color: white;
+}
+
+.sell3{
+display: inline-block;
+position: relative;
+left: 400px;
+top: -300px;
+border: solid 1px gray;
+width: 225px;
+height: 400px;
+background-color: white;
+}
+
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 4 / 2; }
+  .child2 { grid-area: 1 / 2 / 2 / 3; }
+  .child3 { grid-area: 2 / 2 / 3 / 3; }
+  .child4 { grid-area: 3 / 2 / 4 / 3; }
+
+  .table 
+  {
+      font-size: 12px;
+      border: 1px solid #CCC; 
+      font-family: Arial, Helvetica, sans-serif;
+  } 
+  
+  .table td 
+  {
+      padding: 4px;
+      margin: 3px;
+      border: 1px solid rgb(104, 58, 5);
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+  }
+  
+  .table th
+  {
+      background-color: rgb(3, 88, 74);
+      color: #FFF;
+      font-weight: bold;
+  }
+
+  .footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-top: rgb(137, 205, 140) 3px solid;
+}
+
+.footer .cookie
+{
+  float: right;
+  color: #fff;
+  background-color: rgba(255, 170, 0, 0.5);
+  width: 203px;
+}
+
+.footer footer
+{
+  float: left;
+  width: 50%;
+}
